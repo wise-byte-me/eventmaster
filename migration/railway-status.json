@@ -1,0 +1,25 @@
+{
+  "repo": "wise-byte-me/eventmaster",
+  "sourceCommit": "a604cc9d72bce9c78e8245d676b4a2299c9eed27",
+  "selected": true,
+  "status": "Not migrated. Source dependencies inspected. Source database/files and runtime credentials not transferred; no production cutover.",
+  "backend": "frontend / external backend",
+  "database": "Supabase",
+  "storageSdk": false,
+  "paymentsSdk": false,
+  "aiSdk": false,
+  "notes": "Create React App frontend with Supabase database/auth. Requires build-time REACT_APP_SUPABASE_URL and REACT_APP_SUPABASE_ANON_KEY. Inventory SQL, auth users, policies, buckets and functions before replacing Supabase. Production static hosting configuration still required.",
+  "completion": {
+    "sourceBackup": false,
+    "databaseBackup": false,
+    "databaseImport": false,
+    "fileInventory": false,
+    "fileTransfer": false,
+    "authVerified": false,
+    "jobsVerified": false,
+    "paymentsVerified": false,
+    "integrationsVerified": false,
+    "domainCutover": false,
+    "endToEndVerified": false
+  }
+}
